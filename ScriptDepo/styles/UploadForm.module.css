@@ -1,0 +1,36 @@
+.uploadForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.uploadForm input[type="text"],
+.uploadForm textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.uploadForm button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #0070f3;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.uploadForm button:hover {
+    background-color: #0051bb;
+}
